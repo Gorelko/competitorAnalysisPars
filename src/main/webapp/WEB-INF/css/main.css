@@ -1,0 +1,106 @@
+body {
+    background: url(https://marcbruederlin.github.io/particles.js/img/background.jpg);
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+}
+
+
+html, body {
+
+    margin: 0;
+
+    padding: 0;
+}
+
+.button2 {
+    background-color: #008CBA;
+    font-size: 10px;
+    border-radius: 12px;
+    border: 2px solid #4CAF50; /* Green */
+} /* Blue */
+
+.background {
+
+    position: absolute;
+
+    display: block;
+
+    top: 0;
+
+    left: 0;
+
+    z-index: 0;
+}
+
+
+.serviceBox {
+    background: #fff;
+    text-align: center;
+    padding: 20px 0 40px;
+    position: relative;
+}
+
+.serviceBox:hover {
+    background: #98d7ce;
+}
+
+.serviceBox .service-icon {
+    width: 100px;
+    height: 100px;
+    line-height: 95px;
+    border-radius: 50%;
+    border: 3px solid #b3b3b3;
+    font-size: 50px;
+    color: #b3b3b3;
+    margin: 0 auto;
+    transition: all 0.5s ease-in-out;
+}
+
+.serviceBox:hover .service-icon {
+    transform: rotateY(360deg);
+    color: #fff;
+    border-color: #fff;
+    background: #4acab4;
+}
+
+.serviceBox .service-content h3 a {
+    font-size: 22px;
+    color: #333;
+}
+
+.serviceBox .service-content p {
+    font-size: 14px;
+    padding: 0 20px;
+    margin: 15px 0 30px;
+    color: #333;
+}
+
+.serviceBox:hover h3 a,
+.serviceBox:hover p {
+    color: #fff;
+}
+
+.serviceBox .btn {
+    background: #4acab4;
+    color: #fff;
+    padding: 10px 35px;
+    transition: all 0.6s ease-in-out;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+}
+
+.serviceBox:hover .btn {
+    background: #333;
+    color: #fff;
+}
+
+@media screen and (max-width: 990px) {
+    .serviceBox {
+        margin-bottom: 20px;
+        padding: 20px 0;
+    }
+}

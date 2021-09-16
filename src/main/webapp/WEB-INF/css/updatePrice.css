@@ -1,0 +1,58 @@
+select {
+    width: 100%; /* Ширина списка в пикселах */
+}
+
+input {
+    width: 100%; /* Ширина списка в пикселах */
+}
+
+
+body {
+    background: url(https://marcbruederlin.github.io/particles.js/img/background.jpg);
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+}
+
+
+html, body {
+
+    margin: 0;
+
+    padding: 0;
+}
+
+.background {
+
+    position: absolute;
+
+    display: block;
+
+    top: 0;
+
+    left: 0;
+
+    z-index: 0;
+}
+
+
+.serviceBox {
+    background: #fff;
+    text-align: center;
+    padding: 20px 0 40px;
+    position: relative;
+}
+
+
+/* Button */
+.btn {
+    border-radius: 100px;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 17px 3px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.14);
+    text-transform: uppercase;
+    box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.2);
+}
